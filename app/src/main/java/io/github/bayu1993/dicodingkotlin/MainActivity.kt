@@ -8,6 +8,7 @@ import android.util.Log
 import android.widget.Toast
 import io.github.bayu1993.dicodingkotlin.Adapter.ClubAdapter
 import io.github.bayu1993.dicodingkotlin.model.Club
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     private var items: MutableList<Club> = mutableListOf()
@@ -15,10 +16,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val recClub = findViewById<RecyclerView>(R.id.recycler_club)
+        //val recClub = findViewById<RecyclerView>(R.id.recycler_club)
         initData()
-        recClub.layoutManager = LinearLayoutManager(this)
-        recClub.adapter = ClubAdapter(this, items) {
+        recycler_club.layoutManager = LinearLayoutManager(this)
+        recycler_club.adapter = ClubAdapter(this, items) {
             Toast.makeText(applicationContext, it.name, Toast.LENGTH_SHORT).show()
         }
     }

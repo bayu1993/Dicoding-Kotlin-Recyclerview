@@ -1,2 +1,13 @@
-/build
-.idea/
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log Files
+*.log
+
+# Intellij
+*.iml
+.idea
