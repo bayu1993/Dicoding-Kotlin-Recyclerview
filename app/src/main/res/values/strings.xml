@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Dicoding Kotlin</string>
+    <string name="hello_kotlin">Hello Kotlin</string>
+
+    <string-array name="clubs">
+        <item>Real Madrid</item>
+        <item>Barcelona</item>
+        <item>Bayern Munich</item>
+        <item>Manchester City</item>
+        <item>Manchester United</item>
+        <item>Chelsea</item>
+        <item>Ac Milan</item>
+        <item>Arsenal</item>
+    </string-array>
+    <string-array name="url_clubs">
+        <item>https://raw.githubusercontent.com/dicodingacademy/Kotlin-Android-Developer-Expert/project1-hello-kotlin/app/src/main/res/drawable/img_madrid.png</item>
+        <item>https://raw.githubusercontent.com/dicodingacademy/Kotlin-Android-Developer-Expert/project1-hello-kotlin/app/src/main/res/drawable/img_barca.png</item>
+        <item>https://raw.githubusercontent.com/dicodingacademy/Kotlin-Android-Developer-Expert/project1-hello-kotlin/app/src/main/res/drawable/img_bayern.png</item>
+        <item>https://raw.githubusercontent.com/dicodingacademy/Kotlin-Android-Developer-Expert/project1-hello-kotlin/app/src/main/res/drawable/img_city.png</item>
+        <item>https://raw.githubusercontent.com/dicodingacademy/Kotlin-Android-Developer-Expert/project1-hello-kotlin/app/src/main/res/drawable/img_mu.png</item>
+        <item>https://raw.githubusercontent.com/dicodingacademy/Kotlin-Android-Developer-Expert/project1-hello-kotlin/app/src/main/res/drawable/img_chelsea.png</item>
+        <item>https://raw.githubusercontent.com/dicodingacademy/Kotlin-Android-Developer-Expert/project1-hello-kotlin/app/src/main/res/drawable/img_acm.png</item>
+        <item>https://raw.githubusercontent.com/dicodingacademy/Kotlin-Android-Developer-Expert/project1-hello-kotlin/app/src/main/res/drawable/img_arsenal.png</item>
+    </string-array>
+</resources>
